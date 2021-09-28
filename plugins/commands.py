@@ -196,182 +196,141 @@ async def bot_info(bot, message):
         ]
     await message.reply(text="<b>Developer : <a href='https://t.me/subinps_bot'>SUBIN</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://github.com/subinps/Media-Search-bot'>Click here</a>\nUpdate Channel : <a href='https://t.me/subin_works'>XTZ Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
     
-    @Client.on_message(filters.command('help'))
+    
+            
 
-async def bot_info(bot, message):
+                
 
-    buttons = [
+            
 
-        [
+                
 
-            InlineKeyboardButton('Update Channel', url='https://t.me/ErrorXbotz'),
+                
 
-            InlineKeyboardButton('Support Group', url='https://t.me/ErrorXSupport')
+        
 
-        ]
+             
+                       
 
-        ]
+        
 
-    await message.reply(text="<b>If You Have Any Doubts And If Any Errors In Codes Or Bugs Inform Us On Our Support Group ❗️\n Use Below Buttons To Get Support Group / Update channel Links </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            
 
-@Client.on_message(filters.command('info') & (filters.private | filters.group))
+        
 
-async def showinfo(client, message):
+            
 
-    try:
+                
 
-        cmd, id = message.text.split(" ", 1)
+                
 
-    except:
+                
 
-        id = False
+                
 
-        pass
+            
 
-    if id:
+                
 
-        if (len(id) == 10 or len(id) == 9):
-
-            try:
-
-                checkid = int(id)
-
-            except:
-
-                await message.reply_text("__Enter a valid USER ID__", quote=True, parse_mode="md")
-
-                return
-
-        else:
-
-            await message.reply_text("__Enter a valid USER ID__", quote=True, parse_mode="md")
-
-            return           
-
-        if Config.SAVE_USER == "yes":
-
-            name, username, dcid = await find_user(str(id))
-
-        else:
-
-            try:
-
-                user = await client.get_users(int(id))
-
-                name = str(user.first_name + (user.last_name or ""))
-
-                username = user.username
-
-                dcid = user.dc_id
-
-            except:
-
-                name = False
-
-                pass
-
-        if not name:
-
-            await message.reply_text("__USER Details not found!!__", quote=True, parse_mode="md")
-
-            return
-
-    else:
-
-        if message.reply_to_message:
-
-            name = str(message.reply_to_message.from_user.first_name\
-
-                    + (message.reply_to_message.from_user.last_name or ""))
-
-            id = message.reply_to_message.from_user.id
-
-            username = message.reply_to_message.from_user.username
-
-            dcid = message.reply_to_message.from_user.dc_id
-
-        else:
-
-            name = str(message.from_user.first_name\
-
-                    + (message.from_user.last_name or ""))
-
-            id = message.from_user.id
-
-            username = message.from_user.username
-
-            dcid = message.from_user.dc_id
+      
 
     
 
-    if not str(username) == "None":
+            
+            
 
-        user_name = f"@{username}"
+    
 
-    else:
+     
 
-        user_name = "none"
+            
 
-    await message.reply_text(
+                     
 
-        f"<b><u>UserInfo</b></u>\n\n"
+            
 
-        f"<b>Name</b> : {name}\n"
+            
 
-        f"<b>UserID</b> : <code>{id}</code>\n"
+            
 
-        f"<b>Username Name</b> : {user_name}\n"
+    
 
-        f"<b>Permanant USER Link</b> : <a href='tg://user?id={id}'>Link ❗️</a>\n\n"
+            
 
-        f"<b>@ErrorXBotz</b>",
+                    
 
-        quote=True,
+            
+            
+            
+    
 
-        parse_mode="html"
 
-    )
 
-@Client.on_message(filters.command('id') & (filters.private | filters.group))
+        
 
-async def showid(client, message):
+    
 
-    chat_type = message.chat.type
+        
 
-    if chat_type == "private":
+   
 
-        user_id = message.chat.id
+        
 
-        await message.reply_text(
+        
 
-            f"Your ID : `{user_id}`",
+        
 
-            parse_mode="md",
+        
 
-            quote=True
+         
 
-        )
+      
 
-    elif (chat_type == "group") or (chat_type == "supergroup"):
+ 
 
-        user_id = message.from_user.id
 
-        chat_id = message.chat.id
 
-        if message.reply_to_message:
+  
 
-            reply_id = f"Replied User ID : `{message.reply_to_message.from_user.id}`"
 
-        else:
 
-            reply_id = ""
 
-        await message.reply_text(
 
-            f"Your ID : `{user_id}`\nThis Group ID : `{chat_id}`\n\n{reply_id}",
 
-            parse_mode="md",
 
-            quote=True
 
-        )
+
+
+
+
+
+    
+
+           
+
+    
+
+        
+
+
+        
+
+        
+
+        
+
+            
+
+        
+
+            
+
+        
+
+            
+
+           
+
+    
+
+   
