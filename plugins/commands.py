@@ -101,7 +101,7 @@ async def start(bot, cmd):
                     ],
                     [
                         InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("Any help", url="https://t.me/subin_works/122")
+                        InlineKeyboardButton("Any help", url="നീ ഏതാ..... ഒന്ന് പോടെയ് അവൻ help ചോയ്ച്ച് വന്നിരിക്കുന്നു😤...I'm Different Bot U Know",show_alert=True)
                     ],
                     [
                         InlineKeyboardButton("My Dev", url="https://t.me/peace_fighter_TG"),
