@@ -97,18 +97,18 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("About", url= "https://t.me/CB_movieRobot?startgroup=true")
+                        InlineKeyboardButton("➕ 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ➕", url= "https://t.me/CB_movieRobot?startgroup=true")
                     ],
                     [
-                        InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("Any help", url="നീ ഏതാ..... ഒന്ന് പോടെയ് അവൻ help ചോയ്ച്ച് വന്നിരിക്കുന്നു😤...I'm Different Bot U Know",show_alert=True)
+                        InlineKeyboardButton("𝙎𝙚𝙖𝙧𝙘𝙝 𝙝𝙚𝙧𝙚🔎", switch_inline_query_current_chat=''),
+                        InlineKeyboardButton("𝘼𝙣𝙮 𝙃𝙚𝙡𝙥 💡", url="https://t.me/peace_fighter_TG')
                     ],
                     [
-                        InlineKeyboardButton("My Dev", url="https://t.me/peace_fighter_TG"),
-                        InlineKeyboardButton("About", callback_data="about")
+                        InlineKeyboardButton("𝙈𝙮 𝘿𝙚𝙫 🔥", url="https://t.me/peace_fighter_TG"),
+                        InlineKeyboardButton("𝘼𝙗𝙤𝙪𝙩 😎", callback_data="about")
                     ],
                     [
-                        InlineKeyboardButton("How To use me", callback_data="about")
+                        InlineKeyboardButton("❕ 𝐇𝐨𝐰 𝐓𝐨 𝐔𝐬𝐞 𝐌𝐞 ❕", url="https://t.me/peace_fighter_TG")
                     ]    
                 ]
             )
