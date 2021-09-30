@@ -97,12 +97,19 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("Other Bots", url="https://t.me/subin_works/122")
+                        InlineKeyboardButton("About", url= "https://t.me/CB_movieRobot?startgroup=true")
                     ],
                     [
+                        InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
+                        InlineKeyboardButton("Any help", url="https://t.me/subin_works/122")
+                    ],
+                    [
+                        InlineKeyboardButton("My Dev", url="https://t.me/peace_fighter_TG"),
                         InlineKeyboardButton("About", callback_data="about")
-                    ]
+                    ],
+                    [
+                        InlineKeyboardButton("How To use me", callback_data="about")
+                    ]    
                 ]
             )
         )
