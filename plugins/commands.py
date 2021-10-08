@@ -8,6 +8,22 @@ from utils import Media, get_file_details
 from pyrogram.errors import UserNotParticipant
 logger = logging.getLogger(__name__)
 
+Pikachu = [
+
+"https://telegra.ph/file/fd977dbd95f461917591f.jpg",
+
+"https://telegra.ph/file/9c7136ab7ccdce8eee37b.jpg",
+
+"https://telegra.ph/file/7ba11efb69696f598b628.jpg",
+
+"https://telegra.ph/file/165e8d2680ba76017b1ed.jpg",
+
+"https://telegra.ph/file/d0d3199a7e79967dd4003.jpg",
+
+"https://telegra.ph/file/b5a11192ecd411b479494.jpg",
+
+]
+
 @Client.on_message(filters.command("start"))
 async def start(bot, cmd):
     usr_cmdall1 = cmd.text
