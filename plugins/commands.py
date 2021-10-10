@@ -102,7 +102,7 @@ async def start(bot, cmd):
             )
         )
     else:
-        await cmd.reply_photo(photo = {random.choice(Pikachu)},
+        await cmd.reply_photo(photo = random.choice(Pikachu),
             caption=START_MSG,
             parse_mode="Markdown",
             reply_markup=InlineKeyboardMarkup(
