@@ -315,8 +315,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('More Bots', url='https://t.me/subin_works/122'),
-                        InlineKeyboardButton('Update Channel', url='https://t.me/subin_works')
+                        InlineKeyboardButton('🖤𝙅𝙊𝙄𝙉 𝙉𝙊𝙒🖤', url='https://t.me/TV_SeriesCourt'),
                     ]
                     ]
                 
@@ -329,7 +328,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     )
         elif query.data.startswith("checksub"):
             if AUTH_CHANNEL and not await is_subscribed(client, query):
-                await query.answer("I Like Your Smartness, But Don't Be Oversmart 😒",show_alert=True)
+                await query.answer("Bruda I Like Your Smartness, But Don't Be Oversmart 😉",show_alert=True)
                 return
             ident, file_id = query.data.split("#")
             filedetails = await get_file_details(file_id)
@@ -347,8 +346,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('More Bots', url='https://t.me/subin_works/122'),
-                        InlineKeyboardButton('Update Channel', url='https://t.me/subin_works')
+                        InlineKeyboardButton('🖤𝙅𝙊𝙄𝙉 𝙉𝙊𝙒🖤', url='https://t.me/TV_SeriesCourt'),
                     ]
                     ]
                 
@@ -364,4 +362,4 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "pages":
             await query.answer()
     else:
-        await query.answer("കൌതുകും ലേശം കൂടുതൽ ആണല്ലേ👀",show_alert=True)
+        await query.answer("ഇത് നിനക്കുവേണ്ടി ഉള്ളതല്ല മോനെ, വിട്ടോളി😏",show_alert=True)
