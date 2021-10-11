@@ -12,7 +12,7 @@
 ## Installation
 
  ### Easy Way
--------------------Deploy Button Not Available 🙃----------------------
+-------------------[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/PeacefighterTG/PIKACHU-bot)----------------------
   
 ### Hard Way
 ```bash
