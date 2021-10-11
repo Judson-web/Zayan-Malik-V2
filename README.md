@@ -14,8 +14,6 @@
  ### Easy Way
 -------------------Deploy Button Not Available 🙃----------------------
   
-    <img src="https://telegra.ph/file/bae12dab3eddf081ae465.jpg" alt="view">    
-
 ### Hard Way
 ```bash
 # Create virtual environment
