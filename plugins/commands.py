@@ -39,14 +39,14 @@ async def start(bot, cmd):
                 ident, file_id = cmd.text.split("_-_-_-_")
                 await bot.send_message(
                     chat_id=cmd.from_user.id,
-                    text="**Please Join My Updates Channel to use this Bot!**",
+                    text="**🖤𝐉𝐨𝐢𝐧 𝐌𝐲 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 𝐭𝐨 𝐮𝐬𝐞 𝐌𝐞!💜**",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("🤖 Join Updates Channel", url=invite_link.invite_link)
+                                InlineKeyboardButton("💙ʆ૦ɿՈ ɱע υƿძค੮૯ς ८ҺคՈՈ૯Ն🧡", url=invite_link.invite_link)
                             ],
                             [
-                                InlineKeyboardButton(" 🔄 Try Again", callback_data=f"checksub#{file_id}")
+                                InlineKeyboardButton(" 🔄 𝙏𝙧𝙮 𝘼𝙜𝙖𝙞𝙣", callback_data=f"checksub#{file_id}")
                             ]
                         ]
                     ),
@@ -96,7 +96,7 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🤖 Join Updates Channel", url=invite_link.invite_link)
+                        InlineKeyboardButton("💙ʆ૦ɿՈ ɱע υƿძค੮૯ς ८ҺคՈՈ૯Ն🧡", url=invite_link.invite_link)
                     ]
                 ]
             )
@@ -116,10 +116,10 @@ async def start(bot, cmd):
                     ],
                     [
                         InlineKeyboardButton("𝙈𝙮 𝘿𝙚𝙫 🔥", url="https://t.me/peace_fighter_TG"),
-                        InlineKeyboardButton("𝘼𝙗𝙤𝙪𝙩 😎", callback_data="about")
+                        InlineKeyboardButton("𝙈𝙮 𝘿𝙚𝙫 2🔥", url="https://t.me/VAMPIRE_KING_NO_1")
                     ],
                     [
-                        InlineKeyboardButton("❕ 𝐇𝐨𝐰 𝐓𝐨 𝐔𝐬𝐞 𝐌𝐞 ❕", url="https://t.me/peace_fighter_TG")
+                        InlineKeyboardButton("𝘼𝙗𝙤𝙪𝙩 😎", callback_data="about")
                     ]    
                 ]
             )
@@ -159,10 +159,10 @@ async def channel_info(bot, message):
 @Client.on_message(filters.command('total') & filters.user(ADMINS))
 async def total(bot, message):
     """Show total files in database"""
-    msg = await message.reply("Processing...⏳", quote=True)
+    msg = await message.reply("Peace Mama Processing...⏳", quote=True)
     try:
         total = await Media.count_documents()
-        await msg.edit(f'📁 Saved files: {total}')
+        await msg.edit(f'🔥 Saved files: {total}')
     except Exception as e:
         logger.exception('Failed to check total files')
         await msg.edit(f'Error: {e}')
@@ -207,9 +207,9 @@ async def delete(bot, message):
 @Client.on_message(filters.command('about'))
 async def bot_info(bot, message):
     buttons = [
-        [
-            InlineKeyboardButton('Update Channel', url='https://t.me/subin_works'),
-            InlineKeyboardButton('Source Code', url='https://github.com/subinps/Media-Search-bot')
+        [                   
+            InlineKeyboardButton('💜૦ωՈ૯Ր💜', url='https://t.me/Peace_fighter_No1'),
+            InlineKeyboardButton('🖤𝕾𝖔𝖚𝖗𝖈𝖊 𝕮𝖔𝖉𝖊🖤', url='https://t.me/NOKIERUNNOIPPKITTUM')
         ]
         ]
     await message.reply(text="<b>★ 𝙼𝚈 𝙽𝙰𝙼𝙴:𝙿𝙸𝙺𝙰𝙲𝙷𝚄\n★ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href='https://t.me/peace_fighter_TG'>𝙿𝚎𝙰𝚌𝙴-𝙵𝚒𝙶𝚑𝚃𝚎𝚁-𝚃𝙶</a>\n★ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: <code>𝙿𝚈𝚃𝙷𝙾𝙽 𝟹</code>\n★ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈 : <a href='https://docs.pyrogram.org/'>𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼</a>\n𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴: <a href='https://t.me/NOKIERUNNOIPPKITTUM'>𝙲𝙻𝙸𝙲𝙺 𝙼𝙴 👈</a>\n★ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: <a href='https://www.mongodb.com/cloud'>𝙼𝙾𝙽𝙶𝙾 𝙳𝙱</a>\n★ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: <a href='https://heroku.com/'>𝙷𝙴𝚁𝙾𝙺𝚄</a>\n★ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: 𝚅𝟻.𝟶 [ 𝙱𝙴𝚃𝙰 ] </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
