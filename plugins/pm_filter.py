@@ -362,4 +362,5 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "pages":
             await query.answer()
     else:
-        await query.answer("ഇത് നിനക്കുവേണ്ടി ഉള്ളതല്ല മോനെ, വിട്ടോളി😏",show_alert=True)
+          await client.send_sticker(chat_id=message.from_user.id, sticker='CAACAgIAAxkBAAEDD8FhZSipATF2PDov3JbWQsWnfdLc_QACuAIAAjZ2IA64HWFXzVWa3iEE')
+
