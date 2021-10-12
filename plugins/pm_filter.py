@@ -102,9 +102,8 @@ async def filter(client, message):
         buttons = data['buttons'][0].copy()
 
         buttons.append(
-            [InlineKeyboardButton(text="🚀 𝙂𝙊 𝙏𝙊 𝙉𝙀𝙓𝙏 𝙋𝘼𝙂𝙀 🚀",callback_data=f"next_0_{keyword}")]
-        )    
-        buttons.append(
+            [InlineKeyboardButton(text="𝙽𝙴𝚇𝚃»»>",callback_data=f"next_0_{keyword}")]
+            
             [InlineKeyboardButton(text=f"⭕ Pages 1/{data['total']}",callback_data="pages")]
         )
         poster=None
@@ -172,9 +171,8 @@ async def group(client, message):
         buttons = data['buttons'][0].copy()
 
         buttons.append(
-            [InlineKeyboardButton(text="🚀 𝙂𝙊 𝙏𝙊 𝙉𝙀𝙓𝙏 𝙋𝘼𝙂𝙀 🚀",callback_data=f"next_0_{keyword}")]
+            [InlineKeyboardButton(text="𝙽𝙴𝚇𝚃»»>",callback_data=f"next_0_{keyword}")]
         )    
-        buttons.append(
             [InlineKeyboardButton(text=f"⭕ Pages 1/{data['total']}",callback_data="pages")]
         )
         poster=None
