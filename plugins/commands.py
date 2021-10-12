@@ -15,7 +15,7 @@ Pikachu = ["https://telegra.ph/file/b5a11192ecd411b479494.jpg",
            "https://telegra.ph/file/2bcbd85d929bb64416056.png",
            "https://telegra.ph/file/9c7136ab7ccdce8eee37b.jpg",
            "https://telegra.ph/file/64c5e09cfacef17123cb7.jpg",
-           "https://telegra.ph/file/7592ed90b9a674c5e20ad.jpg,
+           "https://telegra.ph/file/7592ed90b9a674c5e20ad.jpg",
            "https://telegra.ph/file/fd977dbd95f461917591f.jpg"]
 
 
