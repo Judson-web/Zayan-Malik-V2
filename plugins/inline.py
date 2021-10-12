@@ -17,7 +17,7 @@ async def answer(bot, query):
         await query.answer(results=[],
                            cache_time=0,
                            switch_pm_text='🖤𝐉𝐨𝐢𝐧 𝐌𝐲 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 𝐭𝐨 𝐮𝐬𝐞 𝐌𝐞!💜',
-                           switch_pm_parameter="💙ʆ૦ɿՈ🧡")
+                           switch_pm_parameter="💙𝙅𝙊𝙄𝙉🧡")
         return
 
     results = []
@@ -90,7 +90,7 @@ async def answer(bot, query):
 def get_reply_markup(query):
     buttons = [
         [
-            InlineKeyboardButton('🖤𝙅𝙊𝙄𝙉 𝙉𝙊𝙒🖤', url='https://t.me/TV_SeriesCourt')
+            InlineKeyboardButton('🖤𝐉𝐎𝐈𝐍 𝐎𝐔𝐑 𝐌𝐀𝐈𝐍 𝐂𝐇𝐀𝐍𝐍𝐄𝐋🖤', url='https://t.me/TV_SeriesCourt')
         ]
         ]
     return InlineKeyboardMarkup(buttons)
