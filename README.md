@@ -13,7 +13,7 @@
 
  ### Easy Way
 -------------------
-<p><a href="https://heroku.com/deploy?template=https://github.com/PeacefighterTG/PIKACHU-bot"><img src="https://img.shields.io/badge/Deploy%20Pikachu%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
+<p><a href="https://heroku.com/deploy?template=https://github.com/PeacefighterTG/PIKACHU-bot"><img src="https://img.shields.io/badge/Deploy%20Pikachu%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="300""/></a></p>
 --------------------
   
 ### Hard Way
