@@ -173,7 +173,8 @@ async def group(client, message):
 
         buttons.append(
             [InlineKeyboardButton(text="𝙽𝙴𝚇𝚃»»>",callback_data=f"next_0_{keyword}")]
-            
+        )
+        buttons.append(    
             [InlineKeyboardButton(text=f"⭕ Pages 1/{data['total']}",callback_data="pages")]
         )
         poster=None
