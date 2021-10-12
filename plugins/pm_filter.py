@@ -362,5 +362,5 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "pages":
             await query.answer()
     else:
-          await client.send_sticker(chat_id=message.from_user.id, sticker='CAACAgIAAxkBAAEDD8FhZSipATF2PDov3JbWQsWnfdLc_QACuAIAAjZ2IA64HWFXzVWa3iEE')
+          await client.send_sticker(chat_id=message.from_user.id, sticker='CAACAgIAAxkBAAEDD8NhZSlOL0xOGnekdg84JwLIfs7JAwACtQIAAjZ2IA4ENx-n4VpriCEE')
 
