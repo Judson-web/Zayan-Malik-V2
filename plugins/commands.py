@@ -11,7 +11,7 @@ logger = logging.getLogger(__name__)
 Pikachu = ["https://telegra.ph/file/b5a11192ecd411b479494.jpg",
            "https://telegra.ph/file/d0d3199a7e79967dd4003.jpg",
            "https://telegra.ph/file/165e8d2680ba76017b1ed.jpg",
-           "https://telegra.ph/file/7ba11efb69696f598b628.jpg",
+           "https://telegra.ph/file/6ae796f3eb6ad20d2811e.jpg",
            "https://telegra.ph/file/2bcbd85d929bb64416056.png",
            "https://telegra.ph/file/9c7136ab7ccdce8eee37b.jpg",
            "https://telegra.ph/file/64c5e09cfacef17123cb7.jpg",
@@ -165,7 +165,7 @@ async def total(bot, message):
     msg = await message.reply("Peace Mama Processing...⏳", quote=True)
     try:
         total = await Media.count_documents()
-        await msg.edit(f'🔥 Saved files: {total}')
+        await msg.edit(f'Peace Mama Itha Total Saved files 🔥: {total}')
     except Exception as e:
         logger.exception('Failed to check total files')
         await msg.edit(f'Error: {e}')
