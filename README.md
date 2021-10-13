@@ -112,7 +112,7 @@ logger - Get log file
 * You can use `|` to separate query and file type while searching for specific type of file. For example: `Avengers | video`
 * If you don't want to create a channel or group, use your chat ID / username as the channel ID. When you send a file to a bot, it will be saved in the database.
     
-## If Any Doubts Ask In [Support Group](https://t.me/PikachuHelpGroup)
+## If Any Doubts Ask In [Support Group](telegram.me/STMbOTsUPPORTgROUP)
 
 ## Contributions
 Contributions are welcome.
