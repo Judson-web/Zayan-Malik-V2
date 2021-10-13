@@ -114,7 +114,7 @@ Contributions are welcome.
 ## Thanks to [Pyrogram](https://github.com/pyrogram/pyrogram)
 
 ## Contact Owner & Editor
-[Editor](https://t.me/VAMPIRE_KING_NO_1) and [Owner](https://t.me/Peace_fighter_No1)
+[Editor](https://t.me/VAMPIRE_KING_NO_1) - [Owner](https://t.me/Peace_fighter_No1)
 
 ## License
 Code released under [The GNU General Public License](LICENSE).
