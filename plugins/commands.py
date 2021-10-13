@@ -213,7 +213,7 @@ async def bot_info(bot, message):
         [                   
             InlineKeyboardButton('💜૦ωՈ૯Ր💜', url='https://t.me/Peace_fighter_No1'),
             InlineKeyboardButton('🖤𝕾𝖔𝖚𝖗𝖈𝖊 𝕮𝖔𝖉𝖊🖤', url='https://t.me/NOKIERUNNOIPPKITTUM')
-            InlineKeyboardButton("💜૦ωՈ૯Ր 𝟐💜", url='https://t.me/VAMPIRE_KING_NO_1')
+            InlineKeyboardButton('💜૦ωՈ૯Ր 𝟐💜', url='https://t.me/VAMPIRE_KING_NO_1')
 
         ]
         ]
