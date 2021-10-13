@@ -9,6 +9,7 @@
 
 ## Added Features
 * Index channel or group files for inline search.
+* Index command to index all the files in a given channel (No USER_SESSION Required).
 * When you post file on telegram channel or group this bot will save that file in database, so you can search easily in inline mode.
 * Supports document, video and audio file formats with caption support.
 * Imdb posters for autofilter.
@@ -92,6 +93,11 @@ docker run -d \
 * `START_MSG`: Welcome message for start command.
 * `INVITE_MSG`: Auth channel invitation message.
 * `USERBOT_STRING_SESSION`: User bot string session From : https://replit.com/@JUD-FORFOR/DARK-LORD
+    
+## Note
+* Currently [API used](http://www.omdbapi.com) here is allowing 1000 requests per day.You may not get posters if its crossed. 
+Once a poster is fetched from OMDB , poster is saved to DB to reduce duplicate requests.
+    
 ## Admin commands
 ```
 channel - Get basic infomation about channels
