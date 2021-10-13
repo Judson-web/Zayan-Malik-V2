@@ -287,6 +287,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     reply_markup=InlineKeyboardMarkup(buttons)
                 )
                 return
+
+       elif query.data == "help":
+              buttons = [
+                [
+                   InlineKeyboardButton('💜૦ωՈ૯Ր💜', url='https://t.me/Peace_fighter_No1'),
+                ]
+                ]
+
         elif query.data == "about":
             buttons = [
                 [
