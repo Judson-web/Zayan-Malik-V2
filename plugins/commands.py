@@ -115,7 +115,7 @@ async def start(bot, cmd):
                     ],
                     [
                         InlineKeyboardButton("𝙎𝙚𝙖𝙧𝙘𝙝 𝙝𝙚𝙧𝙚🔎", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("𝘼𝙣𝙮 𝙃𝙚𝙡𝙥 💡", url="https://t.me/PikachuHelpGroup")
+                        InlineKeyboardButton("𝘼𝙣𝙮 𝙃𝙚𝙡𝙥 💡", url="telegram.me/STMbOTsUPPORTgROUP")
                     ],
                     [
                         InlineKeyboardButton("𝙈𝙮 𝘿𝙚𝙫 🔥", url="https://t.me/peace_fighter_TG"),
