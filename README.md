@@ -13,8 +13,6 @@
 * Supports document, video and audio file formats with caption support.
 * Imdb posters for autofilter.
 * Custom captions for your files.
-* Index command to index all the files in a given channel (No USER_SESSION Required).
-* Ability to Index Public Channels without being admin.
 * Support Auto-Filter (Both in PM and in Groups)
 * Once files saved in Database , exists until you manually deletes. (No Worry if post gets deleted from source channel.)
 * Added Force subscribe (Only channel subscribes can use the bot)
@@ -27,7 +25,7 @@
 <html>
 <body>
 
-<details open>
+<details close>
   <summary>Heroku</summary>
   <p><p><a href="https://heroku.com/deploy?template=https://github.com/PeacefighterTG/PIKACHU-bot"><img src="https://img.shields.io/badge/Deploy%20Pikachu%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="300""/></a></p></p>
 </details>
