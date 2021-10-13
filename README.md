@@ -105,14 +105,16 @@ logger - Get log file
 * Use `index` command or run [one_time_indexer.py](one_time_indexer.py) file to save old files in the database that are not indexed yet.
 * You can use `|` to separate query and file type while searching for specific type of file. For example: `Avengers | video`
 * If you don't want to create a channel or group, use your chat ID / username as the channel ID. When you send a file to a bot, it will be saved in the database.
+    
+## If Any Doubts Ask In [Support Group](https://t.me/PikachuHelpGroup)
 
 ## Contributions
 Contributions are welcome.
 
 ## Thanks to [Pyrogram](https://github.com/pyrogram/pyrogram)
 
-## Support
-[Editor](https://t.me/Beluga100000) and [Support Group](https://t.me/storytym)
+## Contact Owner & Editor
+[Editor](https://t.me/VAMPIRE_KING_NO_1) and [Owner](https://t.me/Peace_fighter_No1)
 
 ## License
 Code released under [The GNU General Public License](LICENSE).
