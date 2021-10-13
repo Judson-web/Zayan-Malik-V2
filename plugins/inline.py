@@ -59,7 +59,7 @@ async def answer(bot, query):
     if results:
         switch_pm_text = f"Bruda Here Is All Files 😎"
         if string:
-            switch_pm_text += f" for {string}"
+            switch_pm_text += f" For {string}"
 
         try:
             await query.answer(results=results,
