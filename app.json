@@ -48,6 +48,11 @@
             "value": "",
             "required": false
         },
+        "BROADCAST": {
+            "description": "Value should be True or False. Broadcast with Forward Tag or as Copy.(Without Forward Tag)",
+            "value": "True",
+            "required": false
+        },
         "START_MSG": {
             "description": "Welcome message for start command",
             "value": "**Hi, I'm [PIKACHU](https://github.com/PeacefighterTG/PIKACHU-bot) or you can call me as Pikachu**\n\nHere you can search files in Inline mode as well as PM, Use the below buttons to search files or send me the name of file to search.",
