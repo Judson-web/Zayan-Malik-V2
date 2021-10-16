@@ -57,7 +57,7 @@ async def answer(bot, query):
                 reply_markup=reply_markup))
 
     if results:
-        switch_pm_text = f"Bruda Here Is All Files 😎"
+        switch_pm_text = f"Bruda Here Is All Files 😎   {total_files}"
         if string:
             switch_pm_text += f" For {string}"
 
