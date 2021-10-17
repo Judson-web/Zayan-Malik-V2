@@ -293,7 +293,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             buttons = [
                 [
                     InlineKeyboardButton('💜૦ωՈ૯Ր💜', url='https://t.me/Peace_fighter_No1'),
-                    InlineKeyboardButton('🆁🅴🅿️🅾️', data='await query.answer("സോഴ്സ് കോഡ് തർനെ എനിക്ക് മനസില്ല ഓണ് പോട അവൻ്റെ ഒരു സോഴ്സ് കോടെ phha",show_alert=True),
+                    InlineKeyboardButton('🆁🅴🅿️🅾️', callback_data="source")
                 ]
                 ]
             await query.message.edit(text="<b>🖤𝙲𝚁𝙴𝙰𝚃𝙾𝚁💜 : <a href='https://t.me/peace_fighter_TG'>𝙿𝚎𝙰𝚌𝙴-𝙵𝚒𝙶𝚑𝚃𝚎𝚁-𝚃𝙶</a>\n𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴 : <code>𝙿𝚈𝚃𝙷𝙾𝙽 𝟹</code>\n𝙻𝙸𝙱𝚁𝙰𝚁𝚈 : <a href='https://docs.pyrogram.org/'>𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼</a>\n𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 : <a href='https://t.me/NOKIERUNNOIPPKITTUM'>𝙲𝙻𝙸𝙲𝙺 𝙼𝙴 👈</a>\n𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴 : <a href='https://www.mongodb.com/cloud'>𝙼𝙾𝙽𝙶𝙾 𝙳𝙱</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -361,7 +361,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
 
         elif query.data == "pages":
-            await query.answer()
-    else:
-        await query.answer("ഇത് നിനക്കുവേണ്ടി ഉള്ളതല്ല മോനെ, വിട്ടോളി😏",show_alert=True)  
+            await query.answer("കൌതുകും ലേശം കൂടുതൽ ആണല്ലേ👀",show_alert=True)
 
+        elif query.data == "Next":
+            await query.answer("കൌതുകും ലേശം കൂടുതൽ ആണല്ലേ👀",show_alert=True)
+        
+        elif query.data == "source":
+            await query.answer("സോഴ്സ് കോഡ് തർനെ എനിക്ക് മനസില്ല ഓണ് പോട അവൻ്റെ ഒരു സോഴ്സ് കോടെ phha",show_alert=True)
