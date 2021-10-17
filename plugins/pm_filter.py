@@ -316,7 +316,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🆂🅴🅰️🆁🅲🅷 🅽🅴🆆 🅼🅾️🆅🅸🅴', switch_inline_query_current_chat=''),
+                        InlineKeyboardButton('🆂🅴🅰️🆁🅲🅷 🅰️🅶🅰️🅸🅽', switch_inline_query_current_chat=''),
                     ]
                     ]
                 
@@ -347,7 +347,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🆂🅴🅰️🆁🅲🅷 🅽🅴🆆 🅼🅾️🆅🅸🅴', switch_inline_query_current_chat=''),
+                        InlineKeyboardButton('🆂🅴🅰️🆁🅲🅷 🅰️🅶🅰️🅸🅽', switch_inline_query_current_chat=''),
                     ]
                     ]
                 
