@@ -90,7 +90,7 @@ async def answer(bot, query):
 def get_reply_markup(query):
     buttons = [
         [
-            InlineKeyboardButton('🖤𝐉𝐎𝐈𝐍 𝐎𝐔𝐑 𝐌𝐀𝐈𝐍 𝐂𝐇𝐀𝐍𝐍𝐄𝐋🖤', url='https://t.me/TV_SeriesCourt')
+            InlineKeyboardButton('🆂🅴🅰️🆁🅲🅷 🅰️🅶🅰️🅸🅽', switch_inline_query_current_chat=''),
         ]
         ]
     return InlineKeyboardMarkup(buttons)
