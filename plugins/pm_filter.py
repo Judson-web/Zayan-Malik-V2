@@ -316,7 +316,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🖤𝐉𝐎𝐈𝐍 𝐎𝐔𝐑 𝐌𝐀𝐈𝐍 𝐂𝐇𝐀𝐍𝐍𝐄𝐋🖤', url='https://t.me/TV_SeriesCourt'),
+                        InlineKeyboardButton('🆂🅴🅰️🆁🅲🅷 🅽🅴🆆 🅼🅾️🆅🅸🅴', switch_inline_query_current_chat=''),
                     ]
                     ]
                 
