@@ -135,7 +135,7 @@ async def group(client, message):
                 file_id = file.file_id
                 file_name = file.file_name
                 file_size = get_size(file.file_size)
-                file_link = f"https://telegram.dog/{nyva}?start=pikachu_-_-_-_{file_id}"
+                file_link = f"https://telegram.dog/{nyva}?start=subinps_-_-_-_{file_id}"
                 btn.append(
                     [
                       InlineKeyboardButton(text=f"{file_name}", url=f"{file_link}"),
@@ -256,7 +256,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             try:
                 data = BUTTONS[keyword]
             except KeyError:
-                await query.answer("You are using this for one of my old message, please send the request again.",show_alert=True)
+                await query.answer("Yᴏᴜ ᴀʀᴇ ᴜsɪɴɢ ᴛʜɪs ғᴏʀ ᴏɴᴇ ᴏғ ᴍʏ ᴏʟᴅ ᴍᴇssᴀɢᴇ 🥺, ᴘʟᴇᴀsᴇ sᴇɴᴅ ᴛʜᴇ ʀᴇǫᴜᴇsᴛ ᴀɢᴀɪɴ😢.",show_alert=True)
                 return
 
             if int(index) == 1:
