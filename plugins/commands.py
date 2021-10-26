@@ -29,7 +29,7 @@ Pikachu = ["https://telegra.ph/file/b5a11192ecd411b479494.jpg",
 @Client.on_message(filters.command("start"))
 async def start(bot, cmd):
     usr_cmdall1 = cmd.text
-    if usr_cmdall1.startswith("/start subinps"):
+    if usr_cmdall1.startswith("/start pikachu"):
         if AUTH_CHANNEL:
             invite_link = await bot.create_chat_invite_link(int(AUTH_CHANNEL))
             try:
