@@ -86,7 +86,7 @@ async def filter(client, message):
         else:
             buttons = btn
             buttons.append(
-                [InlineKeyboardButton(text="⭕ Pages 1/1",callback_data="pages")]
+                [InlineKeyboardButton(text="Gᴏ Tᴏ Nᴇxᴛ Pᴀɢᴇ 🚀",callback_data="pages")]
             )
             poster=None
             if API_KEY:
@@ -102,7 +102,7 @@ async def filter(client, message):
         buttons = data['buttons'][0].copy()
 
         buttons.append(
-            [InlineKeyboardButton(text="𝙽𝙴𝚇𝚃»»>",callback_data=f"next_0_{keyword}")]
+            [InlineKeyboardButton(text="Gᴏ Tᴏ Nᴇxᴛ Pᴀɢᴇ 🚀",callback_data=f"next_0_{keyword}")]
         )
         buttons.append(    
             [InlineKeyboardButton(text=f"⭕ Pages 1/{data['total']}",callback_data="pages")]
@@ -135,7 +135,7 @@ async def group(client, message):
                 file_id = file.file_id
                 file_name = file.file_name
                 file_size = get_size(file.file_size)
-                file_link = f"https://telegram.dog/{nyva}?start=subinps_-_-_-_{file_id}"
+                file_link = f"https://telegram.dog/{nyva}?start=pikachu_-_-_-_{file_id}"
                 btn.append(
                     [
                       InlineKeyboardButton(text=f"{file_name}", url=f"{file_link}"),
@@ -157,7 +157,7 @@ async def group(client, message):
         else:
             buttons = btn
             buttons.append(
-                [InlineKeyboardButton(text="⭕ Pages 1/1",callback_data="pages")]
+                [InlineKeyboardButton(text="Gᴏ Tᴏ Nᴇxᴛ Pᴀɢᴇ 🚀",callback_data="pages")]
             )
             poster=None
             if API_KEY:
