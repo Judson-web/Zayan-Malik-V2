@@ -9,6 +9,21 @@ from utils import get_filter_results, get_file_details, is_subscribed, get_poste
 BUTTONS = {}
 BOT = {}
 
+Pikachu = ["https://telegra.ph/file/b5a11192ecd411b479494.jpg",
+           "https://telegra.ph/file/d0d3199a7e79967dd4003.jpg",
+           "https://telegra.ph/file/165e8d2680ba76017b1ed.jpg",
+           "https://telegra.ph/file/6ae796f3eb6ad20d2811e.jpg",
+           "https://telegra.ph/file/2bcbd85d929bb64416056.png",
+           "https://telegra.ph/file/9c7136ab7ccdce8eee37b.jpg",
+           "https://telegra.ph/file/64c5e09cfacef17123cb7.jpg",
+           "https://telegra.ph/file/7592ed90b9a674c5e20ad.jpg",
+           "https://telegra.ph/file/fd977dbd95f461917591f.jpg",
+           "https://telegra.ph/file/817cf03ebd738f066f84b.jpg",
+           "https://telegra.ph/file/3aad3d4ce42d964223f2f.jpg",
+           "https://telegra.ph/file/dfebd4207f9d5d7f7151a.jpg",
+           "https://telegra.ph/file/8fe7bec6cc6245d8fb45e.jpg"]
+
+
 RATING = ["5.1 | IMDB", "6.2 | IMDB", "7.3 | IMDB", "8.4 | IMDB", "9.5 | IMDB", ]
 GENRES = ["fun, fact",
           "Thriller, Comedy",
@@ -351,7 +366,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     ]
                     ]
                 
-            elif query.data == "start":    
+         elif query.data == "start":
                 await query.answer()
                 await client.send_cached_media(
                     chat_id=query.from_user.id,
