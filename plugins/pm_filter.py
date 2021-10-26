@@ -292,7 +292,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('🅾️🆆🅽🅴🆁', url='https://t.me/Peace_fighter_No1'),
+                    InlineKeyboardButton('🔰 ᗷᗩᑕK 🔰', callback_data="start"),
                     InlineKeyboardButton('🆂🅾️🆄🆁🅲🅴 🅲🅾️🅳🅴', callback_data="source")
                 ]
                 ]
@@ -351,6 +351,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     ]
                     ]
                 
+            elif query.data == "start":    
                 await query.answer()
                 await client.send_cached_media(
                     chat_id=query.from_user.id,
@@ -359,6 +360,28 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     reply_markup=InlineKeyboardMarkup(buttons)
                     )
 
+                 await cmd.reply_photo(photo = random.choice(Pikachu),
+            caption=START_MSG,
+            parse_mode="Markdown",
+            reply_markup=InlineKeyboardMarkup(
+                [
+                    [
+                        InlineKeyboardButton("➕ 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ➕", url= "https://t.me/CB_movieRobot?startgroup=true")
+                    ],
+                    [
+                        InlineKeyboardButton("𝙎𝙚𝙖𝙧𝙘𝙝 𝙝𝙚𝙧𝙚🔎", switch_inline_query_current_chat=''),
+                        InlineKeyboardButton("𝘼𝙣𝙮 𝙃𝙚𝙡𝙥 💡", url="telegram.me/STMbOTsUPPORTgROUP")
+                    ],
+                    [
+                        InlineKeyboardButton("𝙈𝙮 𝘿𝙚𝙫 🔥", url="https://t.me/peace_fighter_TG"),
+                        InlineKeyboardButton("𝙈𝙮 𝘿𝙚𝙫 2🔥", url="https://t.me/VAMPIRE_KING_NO_1")
+                    ],
+                    [
+                        InlineKeyboardButton("𝘼𝙗𝙤𝙪𝙩 😎", callback_data="about")
+                    ]    
+                ]
+            )
+        )
 
         elif query.data == "pages":
             await query.answer("ഇത് നിനക്കുവേണ്ടി ഉള്ളതല്ല മോനെ, വിട്ടോളി😏",show_alert=True)
