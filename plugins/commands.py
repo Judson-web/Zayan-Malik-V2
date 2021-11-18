@@ -115,18 +115,18 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("➕ 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ➕", url= "https://t.me/CB_movieRobot?startgroup=true")
+                        InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url= "https://t.me/CB_movieRobot?startgroup=true")
                     ],
                     [
-                        InlineKeyboardButton("𝙎𝙚𝙖𝙧𝙘𝙝 𝙝𝙚𝙧𝙚🔎", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("𝘼𝙣𝙮 𝙃𝙚𝙡𝙥 💡", url="telegram.me/STMbOTsUPPORTgROUP")
+                        InlineKeyboardButton("sᴇᴀʀᴄʜ ʜᴇʀᴇ", switch_inline_query_current_chat=''),
+                        InlineKeyboardButton("ᴀɴʏ ʜᴇʟᴘ", url="telegram.me/STMbOTsUPPORTgROUP")
                     ],
                     [
-                        InlineKeyboardButton("𝙈𝙮 𝘿𝙚𝙫 🔥", url="https://t.me/peace_fighter_TG"),
-                        InlineKeyboardButton("𝙈𝙮 𝘿𝙚𝙫 2🔥", url="https://t.me/VAMPIRE_KING_NO_1")
+                        InlineKeyboardButton("ᴍʏ ᴅᴇᴠ", url="https://t.me/VAMPIRE_KING_NO_1"),
+                        InlineKeyboardButton("ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ", url="https://t.me/VAMPIRE_KING_NO_1")
                     ],
                     [
-                        InlineKeyboardButton("𝘼𝙗𝙤𝙪𝙩 😎", callback_data="about")
+                        InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="about")
                     ]    
                 ]
             )
