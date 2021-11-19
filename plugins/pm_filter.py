@@ -297,7 +297,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('🆂🅾️🆄🆁🅲🅴 🅲🅾️🅳🅴', callback_data="source")
                 ]
                 ]
-            await query.message.edit(text="<b>🖤𝙲𝚁𝙴𝙰𝚃𝙾𝚁💜 : <a href='https://t.me/VAMPIRE_KING_NO_1'>ƬЄƦƦƠƦ MƖƇƘЄƳ</a>\n𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴 : <code>𝙿𝚈𝚃𝙷𝙾𝙽 𝟹</code>\n𝙻𝙸𝙱𝚁𝙰𝚁𝚈 : <a href='https://docs.pyrogram.org/'>𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼</a>\n𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 : <a href='https://t.me/NOKIERUNNOIPPKITTUM'>𝙲𝙻𝙸𝙲𝙺 𝙼𝙴 👈</a>\n𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴 : <a href='https://www.mongodb.com/cloud'>𝙼𝙾𝙽𝙶𝙾 𝙳𝙱</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text="<b>ᴄʀᴇᴀᴛᴏʀ: <a href='https://t.me/VAMPIRE_KING_NO_1'>ƬЄƦƦƠƦ MƖƇƘЄƳ</a>\nʟᴀɴɢᴜᴀɢᴇ : <code>ᴘʏᴛʜᴏɴ 3</code>\nʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a>\nsᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : <a href='https://t.me/NOKIERUNNOIPPKITTUM'>ᴄʟɪᴄᴋ ᴍᴇ 👈</a>\nᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/cloud'>ᴍᴏɴɢᴏ ᴅʙ</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
         elif query.data.startswith("subinps"):
