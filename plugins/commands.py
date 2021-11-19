@@ -85,7 +85,7 @@ async def start(bot, cmd):
                     f_caption = f"{files.file_name}"
                 buttons = [[
 
-                       InlineKeyboardButton("🍿 𝙅𝙊𝙄𝙉 𝙊𝙐𝙍 𝙂𝙍𝙊𝙐𝙋 🍿", url="https://t.me/cineblasters"),
+                       InlineKeyboardButton("🍿 𝙅𝙊𝙄𝙉 𝙊𝙐𝙍 𝙂𝙍𝙊𝙐𝙋 🍿", url="https://t.me/storytym"),
                     ]]
                 await bot.send_cached_media(
                     chat_id=cmd.from_user.id,
@@ -123,7 +123,7 @@ async def start(bot, cmd):
                     ],
                     [
                         InlineKeyboardButton("ᴍʏ ᴅᴇᴠ", url="https://t.me/VAMPIRE_KING_NO_1"),
-                        InlineKeyboardButton("ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ", url="https://t.me/VAMPIRE_KING_NO_1")
+                        InlineKeyboardButton("ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ", url="https://t.me/storytym")
                     ],
                     [
                         InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="about")
@@ -215,11 +215,11 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [                   
-            InlineKeyboardButton('💜૦ωՈ૯Ր💜', url='https://t.me/Peace_fighter_No1'),
-            InlineKeyboardButton('🆁🅴🅿️🅾️', url='https://t.me/NOKIERUNNOIPPKITTUM'),
+            InlineKeyboardButton('💜૦ωՈ૯Ր💜', url='https://t.me/VAMPIRE_KING_NO_1'),
+            InlineKeyboardButton('🆁🅴🅿️🅾️', url='https://t.me/VAMPIRE_KING_NO_1'),
         ]
         ]
-    await message.reply(text="<b>★ 𝙼𝚈 𝙽𝙰𝙼𝙴:𝙿𝙸𝙺𝙰𝙲𝙷𝚄\n★ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href='https://t.me/peace_fighter_TG'>𝙿𝚎𝙰𝚌𝙴-𝙵𝚒𝙶𝚑𝚃𝚎𝚁-𝚃𝙶</a>\n★ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: <code>𝙿𝚈𝚃𝙷𝙾𝙽 𝟹</code>\n★ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈 : <a href='https://docs.pyrogram.org/'>𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼</a>\n𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴: <a href='https://t.me/NOKIERUNNOIPPKITTUM'>𝙲𝙻𝙸𝙲𝙺 𝙼𝙴 👈</a>\n★ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: <a href='https://www.mongodb.com/cloud'>𝙼𝙾𝙽𝙶𝙾 𝙳𝙱</a>\n★ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: <a href='https://heroku.com/'>𝙷𝙴𝚁𝙾𝙺𝚄</a>\n★ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: 𝚅𝟻.𝟶 [ 𝙱𝙴𝚃𝙰 ] </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text="<b>★ 𝙼𝚈 𝙽𝙰𝙼𝙴:𝙿𝙸𝙺𝙰𝙲𝙷𝚄\n★ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href='https://t.me/VAMPIRE_KING_NO_1'>ƬЄƦƦƠƦ MƖƇƘЄƳ</a>\n★ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: <code>𝙿𝚈𝚃𝙷𝙾𝙽 𝟹</code>\n★ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈 : <a href='https://docs.pyrogram.org/'>𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼</a>\n𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴: <a href='https://t.me/NOKIERUNNOIPPKITTUM'>𝙲𝙻𝙸𝙲𝙺 𝙼𝙴 👈</a>\n★ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: <a href='https://www.mongodb.com/cloud'>𝙼𝙾𝙽𝙶𝙾 𝙳𝙱</a>\n★ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: <a href='https://heroku.com/'>𝙷𝙴𝚁𝙾𝙺𝚄</a>\n★ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: 𝚅𝟻.𝟶 [ 𝙱𝙴𝚃𝙰 ] </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
     
     
             
