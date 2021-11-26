@@ -15,8 +15,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/Judson-web/Zayan-Malik-Mickey",
-    "repository": "https://github.com/Judson-web/Zayan-Malik-Mickey",
+    "website": "https://t.me/primer_roomm",
+    "repository": "https://github.com/Judson-web/Zayan-Malik-V2",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
