@@ -8,19 +8,13 @@ from utils import Media, get_file_details
 from pyrogram.errors import UserNotParticipant
 logger = logging.getLogger(__name__)
 
-Pikachu = ["https://telegra.ph/file/b5a11192ecd411b479494.jpg",
-           "https://telegra.ph/file/d0d3199a7e79967dd4003.jpg",
-           "https://telegra.ph/file/165e8d2680ba76017b1ed.jpg",
-           "https://telegra.ph/file/6ae796f3eb6ad20d2811e.jpg",
-           "https://telegra.ph/file/2bcbd85d929bb64416056.png",
-           "https://telegra.ph/file/9c7136ab7ccdce8eee37b.jpg",
-           "https://telegra.ph/file/64c5e09cfacef17123cb7.jpg",
-           "https://telegra.ph/file/7592ed90b9a674c5e20ad.jpg",
-           "https://telegra.ph/file/fd977dbd95f461917591f.jpg",
-           "https://telegra.ph/file/817cf03ebd738f066f84b.jpg",
-           "https://telegra.ph/file/3aad3d4ce42d964223f2f.jpg",
-           "https://telegra.ph/file/dfebd4207f9d5d7f7151a.jpg",
-           "https://telegra.ph/file/8fe7bec6cc6245d8fb45e.jpg"]
+Pikachu = ["https://telegra.ph/file/e251e55ce213b2e9f4c03.jpg",
+           "https://telegra.ph/file/e251e55ce213b2e9f4c03.jpg",
+           "https://telegra.ph/file/e251e55ce213b2e9f4c03.jpg",
+           "https://telegra.ph/file/e251e55ce213b2e9f4c03.jpg",
+           "https://telegra.ph/file/e251e55ce213b2e9f4c03.jpg",
+           "https://telegra.ph/file/e251e55ce213b2e9f4c03.jpg",
+           "https://telegra.ph/file/e251e55ce213b2e9f4c03.jpg"]
 
 
 
@@ -85,7 +79,7 @@ async def start(bot, cmd):
                     f_caption = f"{files.file_name}"
                 buttons = [[
 
-                       InlineKeyboardButton("🍿 𝙅𝙊𝙄𝙉 𝙊𝙐𝙍 𝙂𝙍𝙊𝙐𝙋 🍿", url="https://t.me/storytym"),
+                       InlineKeyboardButton("🍿 𝙅𝙊𝙄𝙉 𝙊𝙐𝙍 𝙂𝙍𝙊𝙐𝙋 🍿", url="https://t.me/primer_roomm"),
                     ]]
                 await bot.send_cached_media(
                     chat_id=cmd.from_user.id,
@@ -115,14 +109,14 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url= "https://t.me/CB_movieRobot?startgroup=true")
+                        InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url= "https://t.me/PC_autofilterBot?startgroup=true")
                     ],
                     [
                         InlineKeyboardButton("sᴇᴀʀᴄʜ ʜᴇʀᴇ", switch_inline_query_current_chat=''),
                         InlineKeyboardButton("ᴀɴʏ ʜᴇʟᴘ", url="telegram.me/STMbOTsUPPORTgROUP")
                     ],
                     [
-                        InlineKeyboardButton("ᴍʏ ᴅᴇᴠ", url="https://t.me/VAMPIRE_KING_NO_1"),
+                        InlineKeyboardButton("ᴍʏ ᴅᴇᴠ", url="https://t.me/xxxtentacionn12"),
                         InlineKeyboardButton("ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ", url="https://t.me/storytym")
                     ],
                     [
@@ -166,10 +160,10 @@ async def channel_info(bot, message):
 @Client.on_message(filters.command('total') & filters.user(ADMINS))
 async def total(bot, message):
     """Show total files in database"""
-    msg = await message.reply("Peace Mama Processing...⏳", quote=True)
+    msg = await message.reply("Processing...⏳", quote=True)
     try:
         total = await Media.count_documents()
-        await msg.edit(f'Peace Mama Itha Total Saved files 🔥: {total}')
+        await msg.edit(f'Total Saved files 🔥: {total}')
     except Exception as e:
         logger.exception('Failed to check total files')
         await msg.edit(f'Error: {e}')
@@ -215,11 +209,11 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [                   
-            InlineKeyboardButton('💜૦ωՈ૯Ր💜', url='https://t.me/VAMPIRE_KING_NO_1'),
+            InlineKeyboardButton('💜૦ωՈ૯Ր💜', url='https://t.me/xxxtentacionn12'),
             InlineKeyboardButton('🆁🅴🅿️🅾️', url='https://t.me/NOKIERUNNOIPPKITTUM'),
         ]
         ]
-    await message.reply(text="<b>★ 𝙼𝚈 𝙽𝙰𝙼𝙴:𝙿𝙸𝙺𝙰𝙲𝙷𝚄\n★ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href='https://t.me/VAMPIRE_KING_NO_1'>ƬЄƦƦƠƦ MƖƇƘЄƳ</a>\n★ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: <code>𝙿𝚈𝚃𝙷𝙾𝙽 𝟹</code>\n★ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈 : <a href='https://docs.pyrogram.org/'>𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼</a>\n𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴: <a href='https://t.me/NOKIERUNNOIPPKITTUM'>𝙲𝙻𝙸𝙲𝙺 𝙼𝙴 👈</a>\n★ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: <a href='https://www.mongodb.com/cloud'>𝙼𝙾𝙽𝙶𝙾 𝙳𝙱</a>\n★ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: <a href='https://heroku.com/'>𝙷𝙴𝚁𝙾𝙺𝚄</a>\n★ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: 𝚅𝟻.𝟶 [ 𝙱𝙴𝚃𝙰 ] </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text="<b>★ 𝙼𝚈 𝙽𝙰𝙼𝙴:zayn malik\n★ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href='https://t.me/xxxtentacionn12'>𝗚𝗛𝗢𝗦𝗧 𝗠𝗜𝗖𝗞𝗘𝗬</a>\n★ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: <code>𝙿𝚈𝚃𝙷𝙾𝙽 𝟹</code>\n★ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈 : <a href='https://docs.pyrogram.org/'>𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼</a>\n𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴: <a href='https://t.me/NOKIERUNNOIPPKITTUM'>𝙲𝙻𝙸𝙲𝙺 𝙼𝙴 👈</a>\n★ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: <a href='https://www.mongodb.com/cloud'>𝙼𝙾𝙽𝙶𝙾 𝙳𝙱</a>\n★ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: <a href='https://heroku.com/'>𝙷𝙴𝚁𝙾𝙺𝚄</a>\n★ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: 𝚅𝟻.𝟶 [ 𝙱𝙴𝚃𝙰 ] </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
     
     
             
