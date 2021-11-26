@@ -17,7 +17,7 @@ async def index_files(bot, message):
         await message.reply('Bruda Wait until previous process complete, Then I Can Do This Again 👑.')
     else:
         while True:
-            last_msg = await bot.ask(text = "😊 Peace Mama Forward me last message of a channel which I should save to my database.\n\nHmm You can forward posts from any public channel, but for private channels bot should be an admin in the channel 🙂.\n\nMake sure to forward with quotes (Not as a copy)🤓 ", chat_id = message.from_user.id)
+            last_msg = await bot.ask(text = "😊 Forward me last message of a channel which I should save to my database.\n\nHmm You can forward posts from any public channel, but for private channels bot should be an admin in the channel 🙂.\n\nMake sure to forward with quotes (Not as a copy)🤓 ", chat_id = message.from_user.id)
             try:
                 last_msg_id = last_msg.forward_from_message_id
                 if last_msg.forward_from_chat.username:
@@ -77,4 +77,4 @@ async def index_files(bot, message):
                 logger.exception(e)
                 await msg.edit(f'Error: {e}')
             else:
-                await msg.edit(f'He He Peace Mama Total {total_files} Files Save Cheyth Dont Berry 🍓!')
+                await msg.edit(f'He He Total {total_files} Files Save Cheyth Dont Berry 🍓!')
