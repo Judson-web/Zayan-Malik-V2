@@ -1,11 +1,11 @@
 <a href="https://en.wikipedia.org/wiki/Pikachu">
-  <img src="https://telegra.ph/file/2b3571b5103e31b329469.jpg" alt="view">    
+  <img src="https://www.linkpicture.com/q/5bd133a93c3e2-wallpaper-preview-removebg-preview-1.png" alt="view">    
    
 
 
-# [𝙋𝙄𝙆𝘼𝘾𝙃𝙐](http://t.me/CB_movieRobot)
+# [𝚉𝙰𝚈𝙰𝙽 𝙼𝙰𝙻𝙸𝙺](http://telegram.me/PC_autofilterBot)
   
-  ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Adv+Auto+Filter+bot+V2;Click+Deploy+to+Heroku+Button;By+Pikachu)
+  ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Adv+Auto+Filter+bot+V2;Click+Deploy+to+Heroku+Button;By+Mickey)
 
 ## Added Features
 * Index channel or group files for inline search.
@@ -28,7 +28,7 @@
 
 <details close>
   <summary>Heroku</summary>
-  <p><p><a href="https://heroku.com/deploy?template=https://github.com/PeacefighterTG/PIKACHU-bot"><img src="https://img.shields.io/badge/Deploy%20Pikachu%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="300""/></a></p></p>
+  <p><p><a href="https://heroku.com/deploy?template=https://github.com/Judson-web/Zayan-Malik-Mickey"><img src="https://img.shields.io/badge/Deploy%20Pikachu%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="300""/></a></p></p>
 </details>
 
 </body>
