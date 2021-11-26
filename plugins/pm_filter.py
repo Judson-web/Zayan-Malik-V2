@@ -360,4 +360,4 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await query.answer("ഇത് നിനക്കുവേണ്ടി ഉള്ളതല്ല മോനെ, വിട്ടോളി😏",show_alert=True)
         
         elif query.data == "source":
-            await query.answer("സോഴ്സ് കോഡ് തർനെ എനിക്ക് മനസില്ല ഓണ് പോട അവൻ്റെ ഒരു സോഴ്സ് കോടെ phha",show_alert=True)
+            await query.answer("Molil Nokede Phha 😤",show_alert=True)
