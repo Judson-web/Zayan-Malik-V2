@@ -1,7 +1,7 @@
 {
-    "name": "PIKACHU",
+    "name": "𝚉𝙰𝚈𝙰𝙽 𝙼𝙰𝙻𝙸𝙺",
     "description": "When you going to send file on telegram channel this bot will save that in database, So you can search that easily in inline mode",
-    "logo": "https://telegra.ph/file/78ad39c46fa25b9583995.jpg",
+    "logo": "https://www.linkpicture.com/q/5bd133a93c3e2-wallpaper-preview-removebg-preview-1.png",
     "keywords": [
       "telegram",
       "auto-filter",
@@ -15,8 +15,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/PeacefighterTG/PIKACHU-bot",
-    "repository": "https://github.com/PeacefighterTG/PIKACHU-bot",
+    "website": "https://github.com/Judson-web/Zayan-Malik-Mickey",
+    "repository": "https://github.com/Judson-web/Zayan-Malik-Mickey",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
@@ -55,7 +55,7 @@
         },
         "START_MSG": {
             "description": "Welcome message for start command",
-            "value": "**Hi, I'm [PIKACHU](https://github.com/PeacefighterTG/PIKACHU-bot) or you can call me as Pikachu**\n\nHere you can search files in Inline mode as well as PM, Use the below buttons to search files or send me the name of file to search.",
+            "value": "Yo..Yo.. 🙋 Bʀᴜʜ, I'ᴍ  [ᴢᴀʏɴ ᴍᴀʟɪᴋ](https://t.me/PC_autofilterBot) Yᴏᴜ Cᴀɴ Usᴇ Mᴇ As Aɴ Aᴜᴛᴏ-ғɪʟᴛᴇʀ Bᴏᴛ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ ...\n\nIᴛs Eᴀsʏ Tᴏ Usᴇ Mᴇ; Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ As Aᴅᴍɪɴ, Tʜᴀᴛs Aʟʟ, ɪ ᴡɪʟʟ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs Tʜᴇʀᴇ...🤓\n\n⚠️Pʟᴢ Dᴏɴᴛ Sᴘᴀᴍ 🥺\n\n©️MᴀɪɴᴛᴀɪɴᴇD Bʏ  [𝗚𝗛𝗢𝗦𝗧 𝗠𝗜𝗖𝗞𝗘𝗬](https://t.me/xxxtentacionn12) 🇵🇹/🇦🇪",
             "required": false
         },
         "BROADCAST_CHANNEL": {
