@@ -1,5 +1,5 @@
 <a href="https://en.wikipedia.org/wiki/Pikachu">
-  <img src="https://www.linkpicture.com/q/5bd133a93c3e2-wallpaper-preview-removebg-preview-1.png" alt="view">    
+  <img src="zAYAN_MALIK.png" alt="view">    
    
 
 
