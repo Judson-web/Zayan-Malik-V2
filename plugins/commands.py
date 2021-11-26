@@ -9,12 +9,12 @@ from pyrogram.errors import UserNotParticipant
 logger = logging.getLogger(__name__)
 
 Pikachu = ["https://telegra.ph/file/e251e55ce213b2e9f4c03.jpg",
-           "https://telegra.ph/file/e251e55ce213b2e9f4c03.jpg",
-           "https://telegra.ph/file/e251e55ce213b2e9f4c03.jpg",
-           "https://telegra.ph/file/e251e55ce213b2e9f4c03.jpg",
-           "https://telegra.ph/file/e251e55ce213b2e9f4c03.jpg",
-           "https://telegra.ph/file/e251e55ce213b2e9f4c03.jpg",
-           "https://telegra.ph/file/e251e55ce213b2e9f4c03.jpg"]
+           "https://telegra.ph/file/47dba9369c1660fd7bf87.jpg",
+           "https://telegra.ph/file/91da14cb4c250e833206a.jpg",
+           "https://telegra.ph/file/2964d8516056676e82099.jpg",
+           "https://telegra.ph/file/8cc2965db0ea46ea1318f.jpg",
+           "https://telegra.ph/file/b886ff9934e6519278a53.jpg",
+           "https://telegra.ph/file/6d37256aace9919242e46.jpg"]
 
 
 
